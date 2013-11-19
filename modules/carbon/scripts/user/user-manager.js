@@ -75,10 +75,6 @@
         this.manager.deleteRole(role);
     };
 
-    UserManager.prototype.allRoles = function () {
-        return this.manager.getRoleNames();
-    };
-
     /**
      * um.authorizeRole('store-admin', '/permissions/mypermission', 'ui-execute');
      *
